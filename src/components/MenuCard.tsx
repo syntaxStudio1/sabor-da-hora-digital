@@ -41,17 +41,10 @@ const MenuCard = ({ item, index }: MenuCardProps) => {
         <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">
           {item.description}
         </p>
-        <div className="flex items-center justify-between mt-1">
+        <div className="mt-1">
           <span className="text-lg font-extrabold text-primary">
             R$ {item.price.toFixed(2).replace(".", ",")}
           </span>
-          <button
-            onClick={handleAdd}
-            className="flex items-center gap-1.5 bg-primary text-primary-foreground text-xs font-semibold px-3 py-2 rounded-lg hover:opacity-90 active:scale-95 transition-all duration-150 shadow-sm"
-          >
-            <Plus className="h-3.5 w-3.5" />
-            Adicionar
-          </button>
         </div>
       </div>
     </div>
