@@ -6,7 +6,7 @@ import App from './App'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* O basename deve ser o nome exato do seu repositório no GitHub */}
-    <BrowserRouter basename="/sabor-da-hora-digital">
+    <BrowserRouter basename="/Sabor-dahora">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/sabor-da-hora-digital/", // Nome exato do seu repositório
+  base: "/Sabor-dahora/", // Nome exato do seu repositório
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
